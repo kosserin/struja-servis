@@ -59,6 +59,10 @@
           font-size: 3rem;
         }
 
+        @include phone {
+          width: 90%;
+        }
+
         &#first-home-heading {
           display: block;
           @include tablet {

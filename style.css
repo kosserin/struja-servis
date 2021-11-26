@@ -285,6 +285,12 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  #home-page .home-first-row .home-text h1 {
+    width: 90%;
+  }
+}
+
 #home-page .home-first-row .home-text h1#first-home-heading {
   display: block;
 }
