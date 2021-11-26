@@ -1,0 +1,178 @@
+@import "./colors";
+@import "./media-queries";
+
+#contact-nav {
+  .overlay {
+    display: none;
+  }
+
+  @include mini {
+    background: $blue;
+  }
+
+  .nav-logo {
+    @include mini {
+      color: $white;
+    }
+  }
+
+  .nav-links {
+    @include tablet {
+      background: $blue;
+    }
+    li {
+      a {
+        @include mini {
+          color: $pure-white;
+        }
+
+        &::before {
+          @include mini {
+            background: $pure-white;
+          }
+        }
+      }
+    }
+  }
+
+  .nav-burger {
+    div {
+      background: $pure-white;
+    }
+  }
+}
+
+#contact-page {
+  min-height: 100vh;
+  width: 100vw;
+  background: $white;
+
+  @include mini {
+    background: $blue;
+  }
+
+  #contact-container {
+    display: flex;
+    background: $blue;
+    width: 90vw;
+    margin: 25px auto 25px auto;
+    min-height: 80vh;
+
+    @include mini {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 0;
+      padding-bottom: 25px;
+    }
+
+    @include tablet {
+      width: 100vw;
+    }
+
+    .contact-left-side {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      margin: 1rem;
+      padding-left: 5rem;
+
+      @include mini {
+        align-items: center;
+        text-align: center;
+        padding-top: 2rem;
+        padding-left: 0;
+      }
+
+      h1 {
+        color: $white;
+      }
+
+      p {
+        color: $dark;
+        margin-bottom: 20px;
+        width: 70%;
+
+        @include phone {
+          width: 85%;
+        }
+      }
+
+      .items-container {
+        .item-container {
+          display: flex;
+          margin: 10px 0;
+          justify-content: flex-start;
+          align-items: center;
+
+          .item-tag-container {
+            display: flex;
+            flex-direction: column;
+          }
+
+          img {
+            width: 2.5rem;
+            margin-right: 20px;
+
+            @include phone {
+              width: 2rem;
+            }
+          }
+
+          a {
+            text-decoration: none;
+            color: $white;
+          }
+        }
+      }
+      .contact-social-container {
+        margin-top: 50px;
+        display: flex;
+        a {
+          text-decoration: none;
+
+          img {
+            width: 2rem;
+          }
+        }
+
+        a:last-of-type {
+          margin-left: 20px;
+        }
+      }
+    }
+
+    .contact-right-side {
+      background: $pure-white;
+      margin: 1rem;
+      padding: 1rem 4rem 1rem 4rem;
+      width: 80%;
+
+      @include mini {
+        padding: 3rem 6rem;
+      }
+
+      @include tablet {
+        padding: 2rem;
+        width: 90%;
+      }
+
+      input,
+      textarea {
+        padding: 1rem 20px 1rem 1rem;
+
+        @include miniLaptop {
+          padding: 0.5rem 0.5rem 0.5rem 1rem;
+        }
+
+        @include mini {
+          padding: 1rem 20px 1rem 1rem;
+        }
+
+        @include phone {
+          padding: 0.7rem 20px 0.7rem 1rem;
+        }
+      }
+    }
+  }
+}

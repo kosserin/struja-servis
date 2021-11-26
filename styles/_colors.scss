@@ -1,0 +1,144 @@
+$blue: #050038;
+$white: #eaeaea;
+$black: #000000;
+$dark: rgb(146, 146, 146);
+$overlay: #e1e1e1;
+$light-blue: #0039a7;
+$pure-white: #fff;
+
+@mixin heading1 {
+  font-size: clamp(2.5rem, 4vw+1, 4vw);
+  font-weight: 700;
+  white-space: initial;
+}
+
+@mixin heading2 {
+  font-size: clamp(2rem, 2.5vw+1, 2.5vw);
+  font-weight: 700;
+  line-height: 45px;
+
+  @include phone {
+    font-size: 2rem;
+  }
+}
+
+@mixin heading3 {
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+
+@mixin heading4 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+@mixin heading5 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+@mixin navText {
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: $black;
+}
+
+@mixin text {
+  font-size: clamp(0.9rem, 1vw+1, 1vw);
+  font-weight: 400;
+}
+
+@mixin button {
+  text-decoration: none;
+  color: $white;
+  background: $blue;
+  padding: 1rem 2.5rem;
+  transition: all 250ms;
+
+  &:hover {
+    background: rgb(18, 6, 87);
+    transition: all 250ms;
+  }
+}
+
+@mixin link {
+  color: $light-blue;
+  text-decoration: none;
+  padding-bottom: 0px;
+  border-bottom: 2px solid $light-blue;
+  transition: all 250ms ease;
+  font-weight: 500;
+
+  &:hover {
+    border-bottom-color: $blue;
+    color: $blue;
+    transition: all 250ms ease;
+  }
+}
+
+@mixin form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+
+  .input-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+
+    input,
+    textarea {
+      margin: 5px 0;
+      background: $overlay;
+      border: none;
+      outline: none;
+      padding: 1rem 20px 1rem 1rem;
+      font-weight: 600;
+      width: 100%;
+    }
+
+    p {
+      position: absolute;
+      font-size: 0.9rem;
+      color: rgba($black, 0.4);
+      font-weight: 600;
+      top: 50%;
+      left: 15px;
+      transform: translateY(-50%);
+      pointer-events: none;
+      transition: all 250ms ease;
+
+      &.move-text {
+        top: 25%;
+        transition: all 250ms ease;
+        font-size: 0.7rem;
+      }
+    }
+  }
+  .textarea-container {
+    p {
+      top: 2rem;
+
+      &.move-text {
+        top: 1rem;
+        font-size: 0.7rem;
+      }
+    }
+  }
+
+  button {
+    @include button;
+    outline: none;
+    border: none;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+
+    @include tablet {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+@import "./styles/colors";
+@import "./styles/media-queries";
+@import "./styles/header";
+@import "./styles/main";
+@import "./styles/footer";
+@import "./styles/contact";
+@import "./styles/about";
+@import "./styles/services";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  @include heading1;
+}
+
+h2 {
+  @include heading2;
+}
+
+h3 {
+  @include heading3;
+}
+
+h4 {
+  @include heading4;
+}
+
+h5 {
+  @include heading5;
+}
+
+.nav-text {
+  @include navText;
+}
+
+.text {
+  @include text;
+}
+
+form {
+  @include form;
+}

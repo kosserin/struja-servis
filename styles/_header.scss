@@ -1,0 +1,154 @@
+@import "./colors";
+@import "./media-queries";
+
+.general-page {
+  width: 100vw;
+  min-height: 100vh;
+  background: $white;
+
+  nav.white-bg {
+    position: relative;
+    width: 100vw;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10vw 0 10vw;
+    align-items: center;
+    z-index: 10;
+
+    @include phone {
+      padding-left: 5vw;
+    }
+
+    .nav-logo {
+      color: $blue;
+      text-decoration: none;
+
+      h4 {
+        position: relative;
+        transform: translateY(25%);
+        letter-spacing: normal;
+        font-weight: 500;
+      }
+
+      h3 {
+        @include phone {
+          font-size: 1.3rem;
+        }
+      }
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      z-index: 10;
+
+      @include tablet {
+        position: absolute;
+        top: 10vh;
+        right: 0;
+        width: 100vw;
+        height: 90vh;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background: $white;
+        transform: translateX(100%);
+        transition: transform 1000ms ease;
+
+        li {
+          opacity: 0;
+        }
+      }
+
+      &.show-nav {
+        z-index: 10;
+        transform: translateX(0);
+        transition: transform 1000ms ease;
+      }
+
+      li {
+        margin: 0 20px;
+
+        @include tablet {
+          margin: 20px 0;
+        }
+
+        a {
+          position: relative;
+
+          &::before {
+            position: absolute;
+            content: "";
+            bottom: -3px;
+            left: 0;
+            width: 0%;
+            height: 1.5px;
+            background: $black;
+            transition: all 500ms ease;
+          }
+
+          &:hover::before {
+            width: 100%;
+            transition: all 500ms ease;
+          }
+        }
+
+        a.active {
+          &::before {
+            width: 100%;
+          }
+        }
+      }
+
+      li:last-of-type {
+        margin-right: 0;
+      }
+    }
+
+    .nav-burger {
+      display: none;
+
+      @include tablet {
+        display: block;
+        cursor: pointer;
+
+        div {
+          margin: 5px;
+          height: 2.5px;
+          width: 30px;
+          background: $black;
+          transition: all 500ms ease;
+        }
+      }
+
+      &.toggle-burger {
+        .line1 {
+          transform: rotate(45deg) translate(5px, 6px);
+        }
+        .line2 {
+          opacity: 0;
+        }
+        .line3 {
+          transform: rotate(-45deg) translate(5px, -6px);
+        }
+
+        div {
+          transition: all 500ms ease;
+        }
+      }
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
