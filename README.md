@@ -12,20 +12,23 @@ Technologies used:
 ## Landing Page
 
 ![Screenshot 2022-03-11 at 21-14-33 SERVIS KLIMA UREĐAJA HLADNJAČA I ELEKTROINSTALACIJA ŽABARI](https://user-images.githubusercontent.com/71221268/157954987-1de68e03-593b-45db-acd4-9214f0e7ca99.png)
-![Screenshot 2022-03-11 at 21-15-35 SERVIS KLIMA UREĐAJA HLADNJAČA I ELEKTROINSTALACIJA ŽABARI](https://user-images.githubusercontent.com/71221268/157955038-b4cbb0df-b8db-4014-acec-d8acffcb8a44.png)
 
 
 ## Services
 
-[![Screenshot-2022-01-23-at-18-37-16-Usluge-SERVIS-STRUJA-ABARI.png](https://i.postimg.cc/rpPdJj4J/Screenshot-2022-01-23-at-18-37-16-Usluge-SERVIS-STRUJA-ABARI.png)](https://postimg.cc/qt2MB8jh)
-[![Screenshot-2022-01-23-at-18-37-25-Usluge-SERVIS-STRUJA-ABARI.png](https://i.postimg.cc/G2T4SDJ1/Screenshot-2022-01-23-at-18-37-25-Usluge-SERVIS-STRUJA-ABARI.png)](https://postimg.cc/r0cyDKPh)
+![Screenshot 2022-03-11 at 21-15-12 Usluge SERVIS STRUJA ŽABARI](https://user-images.githubusercontent.com/71221268/157955249-3c703d95-ca5b-45ee-8434-1fcb0fce40bc.png)
+
 
 ## Contact Page
 
-[![Screenshot-2022-01-23-at-18-37-33-Kontakt-SERVIS-STRUJA-ABARI.png](https://i.postimg.cc/0jgzgNcK/Screenshot-2022-01-23-at-18-37-33-Kontakt-SERVIS-STRUJA-ABARI.png)](https://postimg.cc/tZ5qW909)
-[![Screenshot-2022-01-23-at-18-37-44-Kontakt-SERVIS-STRUJA-ABARI.png](https://i.postimg.cc/yxFk7zbQ/Screenshot-2022-01-23-at-18-37-44-Kontakt-SERVIS-STRUJA-ABARI.png)](https://postimg.cc/fSRwv1Zm)
+![Screenshot 2022-03-11 at 21-15-18 Kontakt SERVIS STRUJA ŽABARI](https://user-images.githubusercontent.com/71221268/157955420-1f4be417-1385-499d-ac8b-467fa4255bf5.png)
+
 
 ## About Page
 
-[![Screenshot-2022-01-23-at-18-37-55-Kontakt-SERVIS-STRUJA-ABARI.png](https://i.postimg.cc/SNfJ5k8j/Screenshot-2022-01-23-at-18-37-55-Kontakt-SERVIS-STRUJA-ABARI.png)](https://postimg.cc/8jspf8ZV)
-[![Screenshot-2022-01-23-at-18-38-03-Kontakt-SERVIS-STRUJA-ABARI.png](https://i.postimg.cc/FHF7X8gp/Screenshot-2022-01-23-at-18-38-03-Kontakt-SERVIS-STRUJA-ABARI.png)](https://postimg.cc/PPctm67v)
+![Screenshot 2022-03-11 at 21-15-00 Kontakt SERVIS STRUJA ŽABARI](https://user-images.githubusercontent.com/71221268/157955298-1789d846-c766-41a6-91e7-e75c0cfa9701.png)
+
+
+## Mobile preview
+
+![Screenshot 2022-03-11 at 21-15-35 SERVIS KLIMA UREĐAJA HLADNJAČA I ELEKTROINSTALACIJA ŽABARI](https://user-images.githubusercontent.com/71221268/157955038-b4cbb0df-b8db-4014-acec-d8acffcb8a44.png)
