@@ -32,3 +32,7 @@ Technologies used:
 ## Mobile preview
 
 ![Screenshot 2022-03-11 at 21-15-35 SERVIS KLIMA UREĐAJA HLADNJAČA I ELEKTROINSTALACIJA ŽABARI](https://user-images.githubusercontent.com/71221268/157955038-b4cbb0df-b8db-4014-acec-d8acffcb8a44.png)
+![Screenshot 2022-03-11 at 21-16-22 Kontakt SERVIS STRUJA ŽABARI](https://user-images.githubusercontent.com/71221268/157955582-c2767bab-1a4f-40a3-a6ce-dc0def7e53d4.png)
+![Screenshot 2022-03-11 at 21-16-13 Usluge SERVIS STRUJA ŽABARI](https://user-images.githubusercontent.com/71221268/157955593-596697ba-19b0-47ef-8ef7-f39e2e7ab9d7.png)
+![Screenshot 2022-03-11 at 21-16-33 Kontakt SERVIS STRUJA ŽABARI](https://user-images.githubusercontent.com/71221268/157955599-0ad1f459-7948-4380-b878-a92b1673fa66.png)
+
